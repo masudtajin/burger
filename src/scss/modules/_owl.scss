@@ -1,0 +1,17 @@
+.owl{
+    padding: 70px 0;
+    .item{
+        padding: 30px 30px;
+        box-shadow: 6px 8px 20px 0px #adb5bd;
+        margin:0 50px 50px 0;
+        h5{
+            font-family: var(--font-2);
+        }
+        h4{
+            margin-bottom: 45px;
+        }
+        img{
+            max-width: 100%;
+        }
+    }
+}

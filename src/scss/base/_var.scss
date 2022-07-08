@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:wght@400;500;700&display=swap');
+:root{
+    // fonts
+    --font-1: 'Alfa Slab One', cursive;
+    --font-2: 'Bebas Neue', cursive;
+    --font-3: 'Montserrat', sans-serif;
+
+    // Colors
+    --color-1: #3d2514;
+    --color-2: #ffc045;
+    --color-3: #FFFFFF;
+    --color-4: #3d3d3d;
+    --color-5: #bf2222;
+    --color-6: #fec555;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--font-1);
+    font-weight: 400;
+    color: var(--color-1);
+    text-transform: uppercase;
+}
+h1{
+    font-size: 115px;
+    line-height: 120px;
+}
+h2{
+ font-size: 57px;
+ line-height: 62px;
+}
+h3{
+    font-size: 50px;
+    line-height: 55px;
+}
+h4{
+    font-size: 42px;
+    line-height: 45px; 
+}
+.h4{
+    font-size: 37px;
+    line-height: 37px;
+    font-family: var(--font-2);
+    margin-bottom: 30px; 
+}
+h5{
+    font-size: 25px;
+    line-height: 35px; 
+}
+h6{
+    font-size: 23px;
+    line-height: 35px; 
+}
+
+p{
+    font-size: 17px;
+    line-height: 30px;
+    font-family: var(--font-3);
+    margin-bottom: 30px;
+}
+.p-1{
+    font-size: 20px;
+    line-height: 30px;
+}
+.btn{
+    font-size: 25px;
+    line-height: 40px;
+    font-family: var(--font-2);
+    font-weight: 400;
+    background-color: var(--color-2);
+    border-radius: 0;
+    color: var(--color-1); 
+}
+.btn-1{
+    font-size: 20px;
+    line-height: 40px;
+    font-family: var(--font-1);
+    font-weight: 400;
+    background-color: var(--color-5);
+    border-radius: 0;
+    color: var(--color-3); 
+    padding: 20px 35px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
